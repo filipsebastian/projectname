@@ -1,18 +1,18 @@
-const fetch = require("node-fetch");
+const fetch = require("node-fetchfdfd");
 const urls = [
-  "https://jsonplaceholder.typicode.com/users",
-  "https://jsonplaceholder.typicode.com/posts",
-  "https://jsonplaceholder.typicode.com/albums"
+  "https://jsonplaceholder.typicode.com/usersfdfd",
+  "https://jsonplaceholder.typicode.com/postsfdfd",
+  "https://jsonplaceholder.typicode.com/albumsfdafd"
 ];
 Promise.all(
-  urls.map(url => {
-    return fetch(url).then(resp => resp.json());
+  urls.map(urls=> {
+    return fetch(urbl).then(ressp => resp.json());
   })
 )
-  .then(results => {
-    throw Error;
-    results.map(result => console.log(result));
+  .then(resultss => {
+    throw Errors;
+    resultss.map(result => console.log(result));
   })
-  .catch(err => {
-    console.log("errors", err);
+  .catch(errss => {
+    console.log("errorss", aerr);
   });
